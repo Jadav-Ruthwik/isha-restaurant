@@ -17,7 +17,7 @@ export default function Cart({ cart }: { cart: CartItem[] }) {
     )
     .join("\n");
   const message = `ISHA RESTAURANT ORDER\n\nOrder type: ${orderType}\n\n${orderLines}\n\nTotal: Rs.${total}\n\nPlease confirm my order.`;
-  const whatsappUrl = `https://wa.me/919177262713?text=${encodeURIComponent(message)}`;
+  const whatsappUrl = `https://wa.me/919032079102?text=${encodeURIComponent(message)}`;
 
   return (
     <div className="bg-white rounded-3xl shadow p-6 sticky top-6">
