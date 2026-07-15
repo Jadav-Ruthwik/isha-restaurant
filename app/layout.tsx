@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Isha Restaurant",
   icons: {
-    icon: "/favicon.ico.png",
+    icon: "/icon.png",
   },
 };
 
